@@ -54,4 +54,4 @@ If you want 'lesson1' not to be displayed on the page, leave the first quote of 
 
 Here's the saved image (screen capture may give better image results):
 
-![snipaste](.\screen\snipaste.png)
+<img src=".\screen\snipaste.png" alt="web" style="zoom:33%;" />
