@@ -4,13 +4,13 @@
 
 **screen_shot**
 
-<img src="D:\Program Files\Typora\img\screen_shot.png" alt="screen_shot" style="zoom: 50%;" />
+<img src=".\screen\screen_shot.png" alt="screen_shot" style="zoom: 50%;" />
 
 ---
 
 It all started with an internet stroll where I was browsing a social media post that contained a photo of this class schedule (Figure 2). It likely came from an official college website, but I didn't ask the person who posted it. I envisioned a day when I could implement a page with the same effect myself through HTML technology, and today is that day!
 
-<img src="D:\Program Files\Typora\img\web.jpg" alt="web" style="zoom:67%;" />
+<img src=".\screen\web.jpg" alt="web" style="zoom:67%;" />
 
 This little toy project allowed me to learn more about web front-end and JavaScript technologies, which is great.
 
@@ -54,4 +54,4 @@ If you want 'lesson1' not to be displayed on the page, leave the first quote of 
 
 Here's the saved image (screen capture may give better image results):
 
-![snipaste](D:\Program Files\Typora\img\snipaste-17186455278501.png)
+![snipaste](.\screen\snipaste.png)
