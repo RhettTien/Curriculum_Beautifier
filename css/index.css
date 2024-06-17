@@ -1,0 +1,289 @@
+html,
+body {
+    font-family: sans-serif, serif;
+    margin: 0;
+    padding: 0;
+}
+
+a:hover {
+    color: #6f00ff;
+    border-color: #6f00ff;
+}
+
+.container {
+    display: flex;
+}
+
+.course-panel {
+    flex: 1;
+
+    background-size: 178px 58px;
+    background-image:
+        linear-gradient(to right, #00000065 1px, transparent 1px),
+        linear-gradient(to bottom, #00000065 1px, transparent 1px);
+    background-position:
+        0 0,
+        0 0;
+    background-repeat: repeat, repeat;
+    background-color: #f8f9f4;
+    box-shadow: 10px 10px 200px 1px #c7bd83e1 inset;
+    /* box-shadow: 10px 1px 200px 1px #cbd374e1 inset; */
+    margin: 0;
+}
+
+.course-column {
+    display: flex;
+    font-size: 14px;
+    justify-content: center;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.column1,
+.column2,
+.column3,
+.column4,
+.column5 {
+    margin: 10% 0px 16% 0px;
+}
+
+.column-item {
+    position: relative;
+    line-height: 1.08;
+    color: #FFFAF0;
+    background-color: #539B69;
+    width: 162px;
+    padding: 4px 0 4px 0px;
+    margin: 6px;
+    border-radius: 4px;
+    box-shadow: 1px 1px 1px rgb(175, 175, 175);
+    box-sizing: border-box;
+}
+
+/* lunch */
+#course-item15,
+#course-item25,
+#course-item35,
+#course-item45,
+#course-item55 {
+    margin-bottom: 15px;
+    background-color: #2F6534;
+}
+
+/* evening */
+#course-item110,
+#course-item210,
+#course-item310,
+#course-item410,
+#course-item510 {
+    margin-top: 15px;
+    background-color: #4F4B48;
+}
+
+#course-item12,
+#course-item22,
+#course-item32,
+#course-item42,
+#course-item52 {
+    margin-bottom: 15px;
+}
+
+.decorate {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 5px;
+    height: 100%;
+    background-color: rgb(59, 130, 201);
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+
+.title-box {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 8px;
+    padding-bottom: 4px;
+}
+
+.course-time {
+    padding-bottom: 2px;
+}
+
+.course-title {
+    font-weight: bold;
+}
+
+.course-title,
+.course-location {
+    margin-left: 12px;
+    text-shadow: 1px 1px 1px #00000055;
+}
+
+.course-time {
+    margin-left: 12px;
+    text-shadow: 1px 1px 1px #00000055;
+}
+
+.control-panel {
+    width: 260px;
+
+    background-color: #EDEDF5;
+    box-shadow: -4px -4px 4px 1px rgba(0, 0, 0, 0.496);
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+}
+
+.control-panel.out {
+    -webkit-transform-origin: 50% 100%;
+    -webkit-animation: rotateCarouselTopOut .4s both ease;
+    -moz-transform-origin: 50% 100%;
+    -moz-animation: rotateCarouselTopOut .4s both ease;
+    transform-origin: 50% 100%;
+    animation: rotateCarouselTopOut .4s both ease;
+}
+
+@-webkit-keyframes rotateCarouselTopOut {
+    to {
+        opacity: .3;
+        -webkit-transform: translateY(-200%) scale(.4) rotateX(65deg);
+    }
+}
+
+@-moz-keyframes rotateCarouselTopOut {
+    to {
+        opacity: .3;
+        -moz-transform: translateY(-200%) scale(.4) rotateX(65deg);
+    }
+}
+
+@keyframes rotateCarouselTopOut {
+    to {
+        opacity: .3;
+        transform: translateY(-200%) scale(.4) rotateX(65deg);
+    }
+}
+
+.control-panel.in {
+    -webkit-transform-origin: 50% 100%;
+    -webkit-animation: rotateCarouselBottomIn .8s both ease;
+    -moz-transform-origin: 50% 100%;
+    -moz-animation: rotateCarouselBottomIn .8s both ease;
+    transform-origin: 50% 100%;
+    animation: rotateCarouselBottomIn .8s both ease;
+}
+
+@-webkit-keyframes rotateCarouselBottomIn {
+    from {
+        opacity: .3;
+        -webkit-transform: translateY(-200%) scale(.4) rotateX(65deg);
+    }
+}
+
+@-moz-keyframes rotateCarouselBottomIn {
+    from {
+        opacity: .3;
+        -moz-transform: translateY(-200%) scale(.4) rotateX(65deg);
+    }
+}
+
+@keyframes rotateCarouselBottomIn {
+    from {
+        opacity: .3;
+        transform: translateY(-200%) scale(.4) rotateX(65deg);
+    }
+}
+
+.con-btn,
+.con-input {
+    display: flex;
+    flex-direction: column;
+}
+
+.btn {
+    margin: 4px 0 4px 0;
+    border: 1px solid #b9b9b9;
+    padding: 6px;
+    background-color: #fff;
+    cursor: pointer;
+    text-decoration: none;
+    color: #000;
+}
+
+.checkbox {
+    margin: 0 0 4px 0;
+    padding: 6px;
+}
+
+.input-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.input-info {
+    height: 28px;
+}
+
+.label {
+    margin: 4px 0 4px 0;
+}
+
+.notice {
+    display: none;
+    color: red;
+    margin: 5px;
+}
+
+.notice.fade-out-active {
+    opacity: 0;
+    transition: opacity 3s ease-out;
+}
+
+.menu {
+    position: absolute;
+    top: 60px;
+    right: 60px;
+    display: none;
+}
+
+.showButton {
+    position: absolute;
+    border: 1px solid #b9b9b9;
+    padding: 10px;
+    background-color: #fff;
+    text-decoration: none;
+    display: none;
+}
+
+.custom-file-upload {
+    margin: 4px 0 4px 0;
+    border: 1px solid #b9b9b9;
+    padding: 6px;
+    background-color: #fff;
+    cursor: pointer;
+    text-decoration: none;
+    color: #000;
+    /* display: inline-block; */
+}
+
+.custom-file-upload:hover {
+    color: #6f00ff;
+    border-color: #6f00ff;
+}
+
+#jsonFileInput,
+#canvas {
+    display: none;
+}
+
+.first {
+    color: red;
+}
+
+.Copyright{
+    font-weight: bold;
+    text-shadow: 20px 20px 20px 20px #010215;
+    margin: 5px;
+}
