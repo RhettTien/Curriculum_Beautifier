@@ -498,7 +498,7 @@ function high_() {
     var list_ = [3, 4, 8, 9]
     for (n of list_) {
         for (i = 1; i < 6; i++) {
-            var item = document.getElementById("course-item" + (i + n));
+            var item = document.getElementById("course-item" + i + n);
             if (item.display !== 'none') {
                 var course = '';
                 try {
