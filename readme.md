@@ -4,7 +4,7 @@
 
 
 
-<a href=".\website\index.html">website demo</a>
+<a href="https://rhetttien.github.io/Curriculum_Beautifier/website/index.html">website demo</a>
 
 
 
