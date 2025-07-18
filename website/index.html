@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Curriculum Beautifier , a tool to help you beautify your curriculum, building by love.">
+    <meta name="author" content="Rhett Tien">
+    <link rel="icon" href="./icon.svg">
+    <title>Curriculum Beautifier</title>
+    <link rel=stylesheet href="./css/index.css" type="text/css">
+</head>
+
+<body>
+    <script src="./js/jquery-3.6.0.min.js"></script>
+    <script src="./js/html2canvas.min.js"></script>
+    <div class="container">
+        <div class="course-panel" id="course-panel">
+            <div class="Copyright">© 2024 Curriculum Beautifier — <a href="https://github.com/RhettTien">Rhett Tien</a>
+            </div>
+            <div class="course-column" id="course-column"></div>
+        </div>
+        <canvas id="canvas"></canvas>
+        <div class="menu" id="show_menu">
+            <a href="javascript:void(0);" class="showButton" id="show_btn" onclick="show_menu_()">⚓</a>
+        </div>
+
+        <div class="control-panel" id="control-panel">
+            <div class="con-btn">
+                <a href="javascript:void(0);" class="btn" id="hidden" onclick="hidden_menu_()">🎈🎈🎈🎈</a>
+
+                <label for="jsonFileInput" class="custom-file-upload">
+                    import json setting file
+                    <input type="file" id="jsonFileInput" accept=".json">
+                </label>
+
+                <a href="javascript:void(0);" class="btn" id="export" onclick="export_()">export json setting file</a>
+                <a href="javascript:void(0);" class="btn" id="setcolor" onclick="reset_color()">reset color</a>
+                <a href="javascript:void(0);" class="btn" id="image" onclick="save_img()">save as image</a>
+
+                <div class="first checkbox">
+                    <span>Please select the type FIRST</span>
+                </div>
+
+                <div class="checkbox">
+                    <label class="label" for="high">high school:</label>
+                    <input type="checkbox" id="high" name="high" onchange="high_()" checked />
+                </div>
+                <div class="checkbox">
+                    <label class="label" for="lunchtime">lunchtime:</label>
+                    <input type="checkbox" id="lunchtime" name="lunchtime" onchange="lunch_()" checked />
+                </div>
+                <div class="checkbox">
+                    <label class="label" for="evening">night study:</label>
+                    <input type="checkbox" id="evening" name="evening" onchange="evening_()" checked />
+                </div>
+            </div>
+            <div class="con-input">
+                <div class="input-box">
+                    <label class="label" for="day" id="lable">Day of Week:</label>
+                    <input type="text" class="input-info" id="day" />
+                </div>
+                <div class="input-box">
+                    <label class="label" for="lesson" id="lable">Day's lesson:</label>
+                    <input type="text" class="input-info" id="lesson" />
+                </div>
+                <div class="input-box">
+                    <label class="label" for="course" id="lable">Course Name:</label>
+                    <input type="text" class="input-info" id="course" />
+                </div>
+                <div class="input-box">
+                    <label class="label" for="time" id="lable">Time:</label>
+                    <input type="text" class="input-info" id="time" />
+                </div>
+                <div class="input-box">
+                    <label class="label" for="location" id="lable">Location:</label>
+                    <input type="text" class="input-info" id="location" />
+                </div>
+
+                <div class="con-btn">
+                    <a href="javascript:void(0);" class="btn" id="add" onclick="add_()">set</a>
+                </div>
+                <!-- <div class="con-btn">
+                    <a href="javascript:void(0);" class="btn" id="test" onclick="test_()">test</a>
+                </div> -->
+                <span class="notice" id="notice">Something's wrong.</span>
+            </div>
+        </div>
+    </div>
+    <script src="./js/index.js"></script>
+</body>
+
+</html>

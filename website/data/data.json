@@ -1,0 +1,77 @@
+{
+    "annotation1": "Do not change the serial number contained in 'lesson' ! ",
+    "annotation2": "Select the desired style type before exporting the JSON template. ",
+    "annotation3": "Then follow the order of your real table to modify it. ",
+    "annotation4": "If you want 'lesson1' not to be displayed on the page, ",
+    "annotation5": "leave the first quote of the 'lesson1' array empty. ",
+    "annotation6": "Then put any character in the third quote to avoid displaying the exception. ",
+    "------": "------------------------------------------------------------",
+    "color": ["#6563A1", "#36338E", "#C054B1", "#4F4B48", "#6C0D82", 
+    "#179092", "#90150E", "#D05D43", "#539D60", "#14780D", "#E5A92A", 
+    "#5B86BE", "#006666", "#854FBA"],
+    "day1":
+    {
+        "lesson1": ["", "A315", "blank"],
+        "lesson2": ["English", "A315", "9:15 - 10:05am"],
+        "lesson3": ["Economics", "A107", "10:25 - 11:15am"],
+        "lesson4": ["French", "A107", "11:20am - 12:10pm"],
+        "lesson5": ["Lunch", "\\", "12:15 - 1:05pm"],
+        "lesson6": ["Biological", "C210", "1:10 - 2pm"],
+        "lesson7": ["Chemistry", "B506", "2:05 - 2:55pm"],
+        "lesson8": ["Physics", "B506", "3 - 3:50pm"],
+        "lesson9": ["Math", "E103", "3:55 - 4:55pm"],
+        "lesson10": ["", "", "8 - 9pm"]
+    },
+    "day2":
+    {
+        "lesson1": ["History", "A107", "8:20 - 9:10am"],
+        "lesson2": ["", "A107", "9:15 - 10:05am"],
+        "lesson3": ["", "B506", "10:25 - 11:15am"],
+        "lesson4": ["", "B506", "11:20am - 12:10pm"],
+        "lesson5": ["", "\\", "12:15 - 1:05pm"],
+        "lesson6": ["", "A315", "1:10 - 2pm"],
+        "lesson7": ["Economics", "A315", "2:05 - 2:55pm"],
+        "lesson8": ["Geography", "C210", "3 - 3:50pm"],
+        "lesson9": ["Psychology", "E103", "3:55 - 4:55pm"],
+        "lesson10": ["self-study", "", "8 - 9pm"]
+    },
+    "day3":
+    {
+        "lesson1": ["", "A315", "8:20 - 9:10am"],
+        "lesson2": ["Math", "A315", "9:15 - 10:05am"],
+        "lesson3": ["Chemistry", "A107", "10:25 - 11:15am"],
+        "lesson4": ["Physics", "A107", "11:20am - 12:10pm"],
+        "lesson5": ["", "\\", "12:15 - 1:05pm"],
+        "lesson6": ["Japanese", "C210", "1:10 - 2pm"],
+        "lesson7": ["", "B506", "2:05 - 2:55pm"],
+        "lesson8": ["French", "C210", "blank"],
+        "lesson9": ["Art", "E103", "3:55 - 4:55pm"],
+        "lesson10": ["self-study", "", "8 - 9pm"]
+    },
+    "day4":
+    {
+        "lesson1": ["Physics", "A107", "8:20 - 9:10am"],
+        "lesson2": ["", "A107", "9:15 - 10:05am"],
+        "lesson3": ["Biological", "B506", "10:25 - 11:15am"],
+        "lesson4": ["History", "B506", "11:20am - 12:10pm"],
+        "lesson5": ["", "\\", "12:15 - 1:05pm"],
+        "lesson6": ["English", "A315", "1:10 - 2pm"],
+        "lesson7": ["", "A315", "2:05 - 2:55pm"],
+        "lesson8": ["", "C210", "3 - 3:50pm"],
+        "lesson9": ["Psychology", "E103", "3:55 - 4:55pm"],
+        "lesson10": ["self-study", "", "8 - 9pm"]
+    },
+    "day5":
+    {
+        "lesson1": ["Math", "A315", "8:20 - 9:10am"],
+        "lesson2": ["", "A315", "9:15 - 10:05am"],
+        "lesson3": ["Psychology", "A107", "10:25 - 11:15am"],
+        "lesson4": ["Geography", "A107", "11:20am - 12:10pm"],
+        "lesson5": ["Lunch", "\\", "12:15 - 1:05pm"],
+        "lesson6": ["", "C210", "1:10 - 2pm"],
+        "lesson7": ["", "B506", "2:05 - 2:55pm"],
+        "lesson8": ["", "B506", "3 - 3:50pm"],
+        "lesson9": ["Art", "E103", "3:55 - 4:55pm"],
+        "lesson10": ["", "", "blank"]
+    }
+}
